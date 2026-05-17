@@ -30,6 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  intl: ^0.18.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -58,12 +59,6 @@ flutter:
 
   assets:
     - assets/fonts/
-
-  fonts:
-    - family: DMSans
-      fonts:
-        - asset: assets/fonts/DMSans-VariableFont_opsz,wght.ttf
-        - asset: assets/fonts/DMSans-Italic-VariableFont_opsz,wght.ttf
 
   # To add assets to your application, add an assets section, like this:
   # assets:

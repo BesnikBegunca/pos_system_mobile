@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'theme/app_colors.dart';
+import 'screens/dashboard.dart';
 import 'theme/app_text_styles.dart';
 import 'theme/app_spacing.dart';
 import 'theme/app_radius.dart';
@@ -102,7 +103,7 @@ class MyApp extends StatelessWidget {
           titleTextStyle: AppTextStyles.cardTitle,
         ),
       ),
-      home: const HomeScreen(),
+      home: const DashboardScreen(),
     );
   }
 }
